@@ -432,7 +432,7 @@ LRESULT CALLBACK MouseProc(int nCode, WPARAM wParam, LPARAM lParam)
                     ExecuteCommand(IDC_SELECT_NEXT_TAB, hwnd);
                 }
 
-                wheel_tab_ing = true;
+                wheel_tab_ing = false;
                 if (TopContainerView)
                 {
                 }
